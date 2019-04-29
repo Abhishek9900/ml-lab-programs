@@ -1,0 +1,6 @@
+https://stackoverflow.com/questions/25650263/k-means-clustering-for-multidimensional-data
+https://imaddabbura.github.io/post/kmeans_clustering/#implementation
+https://mubaris.com/posts/kmeans-clustering/
+
+Best
+http://www.apnorton.com/blog/2016/12/19/Visualizing-Multidimensional-Data-in-Python/

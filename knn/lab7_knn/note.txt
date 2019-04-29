@@ -1,0 +1,33 @@
+Tasks:
+
+               First complete previous lab tasks. 
+
+         Download data set;
+
+https://drive.google.com/open?id=1q_Q-feu7JTsj8EHyaABz9T4NEMqtlhl-
+
+ 
+
+          Inspect the dataset and drop irrelevant features.
+          Observer the class distribution
+          Diagnosis is class label
+
+Part-A
+
+          Create training and testing dataset [0.7,0.3]
+          Train KNN
+         Display the confusion matrix
+         Tune the model: find out suitable value of k as-
+
+               Without cross validation
+              With 10-f cross validation
+
+          Draw ROC curve for both 4 (i) and 4 (ii)
+
+ Note: share code at machinelearning.iiitnr@gmail.com
+
+ 
+
+Part-B
+
+Repeat all steps from part-A after applying scaling (observe various scaling effect)

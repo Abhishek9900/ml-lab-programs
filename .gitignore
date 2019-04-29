@@ -1,0 +1,32 @@
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.xml
+.fuse*
+.idea/
+.idea
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+myvenv/
+env/
+build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# zip
+*.zip
+*/.zip
+*/*.zip

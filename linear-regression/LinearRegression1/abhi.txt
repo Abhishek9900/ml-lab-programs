@@ -1,0 +1,77 @@
+Lab Tasks (Regression-1):
+
+Refer attached dataset of drug2.CSV
+Observe the dataset and understand it.
+Train a linear regression model (A) as (response~dose), i.e. response is dependent and dose is independent variables.
+Observe the model statistics (p-value, t-value, std. error, magnitude of coefficient, R2 , adj-R2 , SSE, RMSE, F-value, etc )
+Plot the error and see is it Gaussian?
+Plot predicted value vs error and see is it in desired form?
+Plot predicted value vs actual value and see is it in desired form?
+Train another linear regression model (B) as (response~dose+Sex), i.e. response is dependent and dose is independent variables
+Observe changes in model statistics (p-value, t-value, std. error, magnitude of coefficient, R2 , adj-R2 , SSE, RMSE, F-value, etc )
+Plot the error and see is it Gaussian?
+Plot predicted value vs error and see is it in desired form?
+Plot predicted value vs actual value and see is it in desired form?
+
+Lab-2 (Regression)
+
+ 
+
+Lab Task -1
+
+        Refer attached dataset of drug2.CSV
+        Train a linear regression model (C) as (response~dose+ sex+dose*sex), improvement through interaction.
+       Observe the model statistics (p-value, t-value, std. error, magnitude of coefficient, R2 , adj-R2 , SSE, RMSE, F-value, etc )
+       Plot the error and see is it Gaussian?
+       Plot predicted value vs error and see is it in desired form?
+       Plot predicted value vs actual value and see is it in desired form?
+       Now apply training and testing in real sense, .i.e., divide the dataset training (70%) and testing (30%). Now, observe the testing and training RMSE error etc…
+        Plot the error and see is it Gaussian?
+        Plot predicted value vs error and see is it in desired form?
+        Plot predicted value vs actual value and see is it in desired form?
+
+ 
+
+Lab Task-2
+
+Refer attached dataset of dmf.CSV
+
+DMF describe the amount of dental caries in an individual. DMFT is to numerically
+
+express the caries prevalence and are obtained by calculating the number of
+
+Decayed (D), Missing (M) and Filled (F) teeth. The sum of the three figures forms the DMFT-value. For example: DMFT of 4-3-9=16 means that 4 teeth are decayed, 3 teeth are missing and 9 teeth have fillings. fluoride is accepted
+
+as an effective method to prevent caries
+
+ 
+
+dmf~flor
+
+       Train a linear regression model (A) as (dmf~flor)
+        Observe the model statistics (p-value, t-value, std. error, magnitude of coefficient, R2 , adj-R2 , SSE, RMSE, F-value, etc )
+         Plot the error and see is it Gaussian?
+         Plot predicted value vs error and see is it in desired form?
+        Plot predicted value vs actual value and see is it in desired form?
+        Train a linear regression model (B) as (dmf~flor +flor2)
+       Observe the model statistics (p-value, t-value, std. error, magnitude of coefficient, R2 , adj-R2 , SSE, RMSE, F-value, etc )
+        Plot the error and see is it Gaussian?
+       Plot predicted value vs error and see is it in desired form?
+       Plot predicted value vs actual value and see is it in desired form?
+
+       Train a linear regression model (C) as (dmf~flor +flor2 +/sqrtflor )
+
+        Observe the model statistics (p-value, t-value, std. error, magnitude of coefficient, R2 , adj-R2 , SSE, RMSE, F-value, etc )
+        Plot the error and see is it Gaussian?
+        Plot predicted value vs error and see is it in desired form?
+        Plot predicted value vs actual value and see is it in desired form?
+        Train a linear regression model (D) as-
+
+                                  fourootflor <- sqrt(sqrt(flor))
+
+                     regression.out<-lm(dmf ~log(flor+1)+ flor + flor2+1/sqrtflor + 1/fourootflor)
+
+       Observe the model statistics (p-value, t-value, std. error, magnitude of coefficient, R2 , adj-R2 , SSE, RMSE, F-value, etc )
+       Plot the error and see is it Gaussian?
+       Plot predicted value vs error and see is it in desired form?
+       Plot predicted value vs actual value and see is it in desired form?

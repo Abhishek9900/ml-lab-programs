@@ -1,0 +1,4 @@
+       Apply logistic regression for multiclass classification.
+      Confusion matrix for multiclass classification?
+      ROC curve for multiclass classification?
+     Try to interpret other performance measures.

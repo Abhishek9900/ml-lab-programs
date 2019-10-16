@@ -1,3 +1,6 @@
+import pandas as pd
+import numpy as np
+import seaborn as sns
 from sklearn.metrics import roc_curve, auc
 from sklearn import datasets
 from sklearn.multiclass import OneVsRestClassifier
